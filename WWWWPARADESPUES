@@ -1,0 +1,25 @@
+ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  //elevation: 0,
+                  // side: BorderSide(width: .2),
+                  //TODO cambiar el color dependiendo de la semeccion
+                  backgroundColor: Apptheme.colorPrimary,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30.0),
+                  ),
+                ),
+                onPressed: () {},
+                child: Row(
+                  children: [
+                    Text(
+                      'Comprar',
+                      style: Apptheme.textBoldMediumSubTitleStyleWhite,
+                    ),
+                    SizedBox(width: 5),
+                    ImageIcon(
+                      AssetImage("images/whatsappBlack.png"),
+                      size: 15,
+                    ),
+                  ],
+                ),
+              ),
